@@ -26,7 +26,7 @@ Check out the live version of the website here:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/PujaTiwa/SHOPPY-GLOBE.git
    ```
 
 2. Navigate to the project directory:

@@ -120,7 +120,7 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} className="bg-gray-700">
       {/* AppBar component for navigation */}
       <AppBar position="static">
         <Toolbar>
