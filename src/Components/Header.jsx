@@ -14,9 +14,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import SearchProduct from "./SearchProduct";
+import SearchProduct from "./SearchProduct.jsx";
 
-export default function PrimarySearchAppBar() {
+function PrimarySearchAppBar() {
   // Access the cart items from the Redux store
   const Cart = useSelector((store) => store.cart.items);
 
@@ -203,3 +203,5 @@ export default function PrimarySearchAppBar() {
     </Box>
   );
 }
+
+export default PrimarySearchAppBar;

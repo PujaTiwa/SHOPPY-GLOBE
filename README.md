@@ -2,10 +2,6 @@
 
 Welcome to **Shoppy Glob**, your global destination for trendy shopping. This is a full-stack e-commerce platform built using the MERN stack, with a dynamic and responsive user interface, allowing users to browse products, add items to their cart, and make purchases.
 
-## Live Demo
-
-Check out the live version of the website here: 
-
 ## Features
 
 - **Product Browsing**: Users can explore a wide range of products across various categories.
@@ -62,5 +58,5 @@ Feel free to contribute by creating a pull request or opening an issue if you fi
 
 ## GitHub Repository
 
-The source code for the project is hosted on GitHub: 
+The source code for the project is hosted on GitHub: [text](https://github.com/PujaTiwa/SHOPPY-GLOBE.git)
 
