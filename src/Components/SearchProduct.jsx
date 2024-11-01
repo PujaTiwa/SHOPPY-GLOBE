@@ -77,9 +77,8 @@ const SearchProduct = () => {
       {/* Search Results */}
       {SearchProduct && (
         <div
-          className={`justify-center bg-slate-200 rounded-md items-center  absolute top-16 sm:top-16 sm:w-[70%] h-80 overflow-x-hidden   ${
-            inputValue ? "absolute top-20 z-50 bg-base-200" : "hidden"
-          }`}
+          className={`justify-center bg-slate-200 rounded-md items-center  absolute top-16 sm:top-16 sm:w-[70%] h-80 overflow-x-hidden   ${inputValue ? "absolute top-20 z-50 bg-base-200" : "hidden"
+            }`}
         >
           {SearchProduct?.map((item) => (
             <Link to={`/ProductDetailsPage/${item?.id}`} key={item?.id}>
@@ -93,8 +92,10 @@ const SearchProduct = () => {
                     <img src={item.images[0]} alt="" /> {/* Product image */}
                   </div>
                   <div className="flex flex-col justify-center ">
-                    <h1 className="text-slate-900 text-sm">{item.title}</h1> {/* Product title */}
-                    <p className="text-sm font-bold italic"> {item.brand}</p> {/* Product brand */}
+                    {/* Product title */}
+                    <h1 className="text-slate-900 text-sm">{item.title}</h1>
+                    {/* Product brand */}
+                    <p className="text-sm font-bold italic"> {item.brand}</p>
                   </div>
                 </div>
               </div>

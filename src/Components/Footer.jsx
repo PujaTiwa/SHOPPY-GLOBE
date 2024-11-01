@@ -46,24 +46,24 @@ const Footer = () => {
 
           {/* Column 3: Social Media */}
           <div className="w-full md:w-1/3 mb-6">
-            <h3 className="text-xl font-bold mb-2">Follow Us</h3>
+            <h3 className="text-xl font-bold mb-8">Follow Us</h3>
             <ul className="flex space-x-4">
               <li className="w-8">
                 <Link
-                  to="https://www.facebook.com/profile.php?id=100010296425247&mibextid=ZbWKwL"
-                  aria-label="Facebook"
+                  to="https://github.com/pujaTiwa/"
+                  aria-label="Github"
                 >
-                  <img src="/facebook_2504903.png" alt="Facebook icon" />
+                  <img src="/github.png" alt="Github icon" />
                 </Link>
               </li>
               <li className="w-8">
-                <Link to="https://www.instagram.com" aria-label="Instagram">
+                <Link to="https://www.instagram.com/lifeisnot00?igsh=d2hlYjBvMzNqbmUz" aria-label="Instagram">
                   <img src="/instagram_2111463.png" alt="Instagram icon" />
                 </Link>
               </li>
               <li className="w-8">
                 <Link
-                  to="https://www.linkedin.com/in/akash-gupta-766026309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  to="https://www.linkedin.com/in/puja-tiwari-616428220/"
                   aria-label="LinkedIn"
                 >
                   <img src="/twitter_3670151.png" alt="LinkedIn icon" />
